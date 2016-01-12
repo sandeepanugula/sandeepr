@@ -15,6 +15,7 @@
 		26F358BE1C4440E900D1D6F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F358BD1C4440E900D1D6F6 /* Images.xcassets */; };
 		26F358C11C4440E900D1D6F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F358BF1C4440E900D1D6F6 /* LaunchScreen.xib */; };
 		26F358CD1C4440E900D1D6F6 /* contactListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F358CC1C4440E900D1D6F6 /* contactListTests.m */; };
+		26F358E11C44584A00D1D6F6 /* addContactVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F358E01C44584A00D1D6F6 /* addContactVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		26F358C61C4440E900D1D6F6 /* contactListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F358CB1C4440E900D1D6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26F358CC1C4440E900D1D6F6 /* contactListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = contactListTests.m; sourceTree = "<group>"; };
+		26F358DF1C44584A00D1D6F6 /* addContactVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addContactVCViewController.h; sourceTree = "<group>"; };
+		26F358E01C44584A00D1D6F6 /* addContactVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addContactVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				26F358B21C4440E900D1D6F6 /* AppDelegate.m */,
 				26F358B71C4440E900D1D6F6 /* ViewController.h */,
 				26F358B81C4440E900D1D6F6 /* ViewController.m */,
+				26F358DF1C44584A00D1D6F6 /* addContactVCViewController.h */,
+				26F358E01C44584A00D1D6F6 /* addContactVCViewController.m */,
 				26F358BA1C4440E900D1D6F6 /* Main.storyboard */,
 				26F358BD1C4440E900D1D6F6 /* Images.xcassets */,
 				26F358BF1C4440E900D1D6F6 /* LaunchScreen.xib */,
@@ -226,6 +231,7 @@
 				26F358B31C4440E900D1D6F6 /* AppDelegate.m in Sources */,
 				26F358B91C4440E900D1D6F6 /* ViewController.m in Sources */,
 				26F358B01C4440E900D1D6F6 /* main.m in Sources */,
+				26F358E11C44584A00D1D6F6 /* addContactVCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
